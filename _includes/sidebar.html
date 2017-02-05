@@ -44,6 +44,12 @@
             {% else %}
             <!-- Empty -->
             {% endif %}
+            
+            {% if site.researchgate %}
+            <li class="researchgate"><i class="fa fa-rocket"></i><a href="https://www.researchgate.net/profile/{{site.researchgate}}" target="_blank">researchgate.net</a></li>
+            {% else %}
+            <!-- Empty -->
+            {% endif %}
 
         </ul>
     </div><!--//contact-container-->
