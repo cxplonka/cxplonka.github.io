@@ -9,17 +9,43 @@
           <h3 class="job-title">Software Architect</h3>
           <p class="job-company">@ ZEDAS GmbH · Senftenberg</p>
         </div>
-        <p class="job-sector">Rail cargo logistics · software for rail transport logistics and asset management of vehicle fleets</p>
+        <p class="job-sector">Rail cargo logistics &amp; asset management · zedas®cargo · zedasONE</p>
+        <p>Architecture and hands-on development across the zedas®cargo product line, from Jakarta EE and Quarkus backends to Angular and Eclipse RCP clients and the Karaf / Camel integration platform.</p>
+
+        <h4 class="job-group">architecture &amp; modernisation</h4>
         <ul class="bullets">
-          <li>Design and maintenance of Java EE backend business logic and services</li>
-          <li>Frontend development with the OSGi-based Eclipse RCP framework, JSF and Angular</li>
-          <li>Implementation of rail cargo use cases across backend and frontend layers</li>
-          <li>Integration tests for services and use cases with Arquillian / OpenEJB</li>
-          <li>Built an application performance monitoring (APM) solution based on Prometheus, Grafana, OpenTracing and bytecode instrumentation</li>
-          <li>Connected systems and partners following enterprise integration patterns with Apache Karaf and Apache Camel</li>
+          <li>Service architecture for zedas®cargo modules: Quarkus 3 microservices with hexagonal architecture next to Jakarta EE applications on JBoss EAP / WildFly</li>
+          <li>Modernisation: Oracle → PostgreSQL, Java 11 → 21, javax → jakarta, Quarkus 2 → 3; consolidation of product repositories into mono-repos with preserved history</li>
+          <li>Rail cargo use cases end-to-end across backend, Eclipse RCP and Angular clients</li>
         </ul>
+
+        <h4 class="job-group">business integration</h4>
+        <ul class="bullets">
+          <li>Maintainer of the Karaf / Camel distribution that runs business integration in all zedas®cargo environments (successor of PCSConnect)</li>
+          <li>Camel routes for customers and partners (FTP / SFTP, HTTP / REST, RabbitMQ, Microsoft Graph) and railway EDI transformations such as IFTMIN and CONTRL / APERAK</li>
+          <li>Credentials manager for integration secrets with permissions per customer and stage, REST API and CLI (NestJS, Prisma, PostgreSQL)</li>
+        </ul>
+
+        <h4 class="job-group">frontend</h4>
+        <ul class="bullets">
+          <li>Contributions to zedasONE, the company-wide Angular component library: Nx monorepo, design tokens, Storybook, Figma-based component contracts</li>
+        </ul>
+
+        <h4 class="job-group">platform, quality &amp; operations</h4>
+        <ul class="bullets">
+          <li>Application performance monitoring (APM) based on Prometheus, Grafana, OpenTracing and bytecode instrumentation</li>
+          <li>Delivery and quality gates: GitHub Actions, Jenkins, Jib / Docker, Gitleaks, Trivy, CodeQL, SBOM, Checkstyle / PMD / Spotless, JaCoCo</li>
+          <li>Testing with Arquillian, Testcontainers, Cucumber and Playwright</li>
+        </ul>
+
+        <h4 class="job-group">ai-assisted engineering</h4>
+        <ul class="bullets">
+          <li>Agent-ready repositories: CLAUDE.md / AGENTS.md context layers, coding and testing guidelines, change boundaries</li>
+          <li>AI code review (CodeRabbit) and AI-supported migrations</li>
+        </ul>
+
         <ul class="tags" aria-label="Technologies">
-          <li>java-ee</li><li>jpa</li><li>sql</li><li>oracle</li><li>wildfly</li><li>osgi</li><li>karaf</li><li>camel</li><li>bytebuddy</li><li>arquillian</li><li>eclipse-rcp</li><li>jsf</li><li>angular</li><li>docker</li><li>prometheus</li><li>grafana</li><li>opentracing</li><li>elk</li><li>tdd</li><li>ci</li>
+          <li>java-21</li><li>jakarta-ee</li><li>quarkus</li><li>jboss-eap</li><li>jpa</li><li>liquibase</li><li>postgresql</li><li>oracle</li><li>keycloak</li><li>osgi</li><li>karaf</li><li>camel</li><li>rabbitmq</li><li>eclipse-rcp</li><li>angular</li><li>nx</li><li>storybook</li><li>nestjs</li><li>prisma</li><li>docker</li><li>github-actions</li><li>jenkins</li><li>prometheus</li><li>grafana</li><li>playwright</li><li>claude-code</li>
         </ul>
       </div>
     </article>
