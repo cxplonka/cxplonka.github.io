@@ -1,37 +1,53 @@
-<section id="education" class="section split">
-  <div>
-    <h2 class="section-title"><span class="accent">//</span> education</h2>
-    <div class="edu">
-      <div>
-        <p class="edu-date">09/2002 → 12/2006</p>
-        <p class="edu-title">Dipl.-Inform. (FH), Computer Science · final grade “very good”</p>
-        <p class="edu-place">Fachhochschule Lausitz, University of Applied Sciences, Senftenberg</p>
-        <p class="edu-note">Physics, software &amp; system engineering, database design, system and image analysis, advanced mathematics, algorithms and data structures, information theory, medical informatics.</p>
-      </div>
-      <div>
-        <p class="edu-date">09/2001 → 07/2002</p>
-        <p class="edu-title">Advanced technical college entrance qualification (Fachabitur)</p>
-        <p class="edu-place">Oberstufenzentrum Lausitz, Senftenberg</p>
-      </div>
-      <div>
-        <p class="edu-date">1999 → 2001</p>
-        <p class="edu-title">Industrial training: Assistant for Automation &amp; Computer Technology</p>
-        <p class="edu-place">Oberstufenzentrum I Spree-Neiße, Forst</p>
-        <p class="edu-note">Project work “Grafikstandards und ihre Assembler-Programmierung”.</p>
-      </div>
-      <div>
-        <p class="edu-date">1997 → 1999</p>
-        <p class="edu-title">Apprenticeship as car mechanic</p>
-        <p class="edu-place">Autohaus Fuchs, Lauchhammer</p>
-      </div>
+<section id="education" class="section">
+  <h2 class="section-title"><span class="accent">//</span> education</h2>
+  <div class="edu-chart">
+    <div class="edu-axis" aria-hidden="true">
+      <span class="edu-axis-spacer"></span>
+      <div class="edu-ticks"><span>1997</span><span>1998</span><span>1999</span><span>2000</span><span>2001</span><span>2002</span><span>2003</span><span>2004</span><span>2005</span><span>2006</span></div>
     </div>
+    <ol class="edu-rows">
+      <li class="edu-row">
+        <div class="edu-label">
+          <p class="edu-date">1997 → 1999</p>
+          <p class="edu-title">Apprenticeship as car mechanic</p>
+          <p class="edu-place">Autohaus Fuchs, Lauchhammer</p>
+        </div>
+        <div class="edu-track" aria-hidden="true"><span class="edu-bar" style="--s: 7; --d: 23;"></span></div>
+      </li>
+      <li class="edu-row">
+        <div class="edu-label">
+          <p class="edu-date">1999 → 2001</p>
+          <p class="edu-title">Assistant for Automation &amp; Computer Technology</p>
+          <p class="edu-place">Oberstufenzentrum I Spree-Neiße, Forst · project work “Grafikstandards und ihre Assembler-Programmierung”</p>
+        </div>
+        <div class="edu-track" aria-hidden="true"><span class="edu-bar" style="--s: 31; --d: 23;"></span></div>
+      </li>
+      <li class="edu-row">
+        <div class="edu-label">
+          <p class="edu-date">09/2001 → 07/2002</p>
+          <p class="edu-title">Fachabitur (advanced technical college entrance qualification)</p>
+          <p class="edu-place">Oberstufenzentrum Lausitz, Senftenberg</p>
+        </div>
+        <div class="edu-track" aria-hidden="true"><span class="edu-bar is-school" style="--s: 56; --d: 10;"></span></div>
+      </li>
+      <li class="edu-row is-degree">
+        <div class="edu-label">
+          <p class="edu-date">09/2002 → 12/2006</p>
+          <p class="edu-title">Dipl.-Inform. (FH), Computer Science <span class="badge badge-accent">very good</span></p>
+          <p class="edu-place">Fachhochschule Lausitz, University of Applied Sciences, Senftenberg</p>
+          <p class="edu-note">Physics, software &amp; system engineering, database design, image analysis, advanced mathematics, algorithms, information theory, medical informatics</p>
+        </div>
+        <div class="edu-track" aria-hidden="true"><span class="edu-bar is-degree" style="--s: 68; --d: 51;"></span></div>
+      </li>
+    </ol>
   </div>
-  <div>
-    <h2 class="section-title"><span class="accent">//</span> misc</h2>
-    <div class="card kv">
-      <div><span class="key">languages:</span> de (native), en (professional)</div>
-      <div><span class="key">interests:</span> fitness, computer science, snowboarding, football</div>
-      <div><span class="key">based_in:</span> {{ site.location }}</div>
-    </div>
+</section>
+
+<section id="misc" class="section">
+  <h2 class="section-title"><span class="accent">//</span> misc</h2>
+  <div class="card kv">
+    <div><span class="key">languages:</span> de (native), en (professional)</div>
+    <div><span class="key">interests:</span> fitness, computer science, snowboarding, football</div>
+    <div><span class="key">based_in:</span> {{ site.location }}</div>
   </div>
 </section>

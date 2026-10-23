@@ -1,0 +1,21 @@
+# Stack cards on the CV. Derived from the projects in C:\Development\git (technology names only).
+groups:
+  - name: java & jakarta ee
+    items: [Java 8 → 25, Jakarta EE, Quarkus, WildFly / JBoss EAP, JPA / Hibernate, RESTEasy, MapStruct, Liquibase, Oracle, PostgreSQL]
+  - name: integration
+    items: [Karaf, Camel, OSGi / Blueprint, RabbitMQ, Keycloak / OIDC, Microsoft Graph, SFTP / FTP, enterprise integration patterns]
+  - name: typescript & node
+    items: [TypeScript, Node.js, NestJS, Prisma, Drizzle ORM, better-auth, Zod, Pino, SQLite]
+  - name: frontend & desktop
+    items: [Angular, NgRx, Angular Material, React, TanStack, Tailwind CSS, Vite, Nx, Storybook, Electron, Eclipse RCP / Tycho, Swing / FlatLaf]
+  - name: 3d, hpc & graphics
+    items: [OpenCL, OpenGL / JOGL, Java3D, Three.js, React Three Fiber, WebGPU, CSG / BVH, Apache Arrow, numerical simulation]
+  - name: testing & quality
+    items: [JUnit 5, Mockito, AssertJ, Testcontainers, REST Assured, Cucumber, Arquillian, WireMock, Vitest, Jest, Playwright, fast-check, Checkstyle, PMD, JaCoCo]
+  - name: devops & security
+    items: [Docker, Jib, GitHub Actions, GitLab CI, Jenkins, Maven, Gradle (Kotlin DSL), Trivy, Gitleaks, CodeQL, CycloneDX SBOM]
+  - name: observability
+    items: [Prometheus, Grafana, Micrometer, OpenTracing, ELK, ByteBuddy instrumentation]
+  - name: ai-assisted engineering
+    items: [Claude Code, Cursor, CodeRabbit, agentic workflows (CLAUDE.md / AGENTS.md), LLM integration]
+practices: object-oriented analysis & design · TDD · property-based testing · code review · agile · full lifecycle ownership

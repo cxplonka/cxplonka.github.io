@@ -135,6 +135,8 @@ p { margin: 0 0 12px; }
 .section { padding: 80px 0; border-top: 1px solid var(--border); }
 .section-title { margin: 0 0 40px; font-family: var(--mono); font-size: 26px; font-weight: 500; line-height: 1.3; }
 .section-title small { font-size: 15px; font-weight: 400; color: var(--muted); }
+.badge { display: inline-block; margin-left: 10px; padding: 2px 10px; border: 1px solid var(--border-strong); border-radius: 999px; font-family: var(--mono); font-size: 12px; font-weight: 500; line-height: 1.6; color: var(--string); vertical-align: middle; letter-spacing: .02em; }
+.badge-accent { margin-left: 8px; color: var(--accent); border-color: rgba(94, 234, 212, .4); }
 
 /* experience */
 .timeline { display: flex; flex-direction: column; gap: 20px; }
@@ -160,6 +162,9 @@ p { margin: 0 0 12px; }
 .stack-card { padding: 24px; }
 .stack-card h3 { margin: 0 0 14px; font-family: var(--mono); font-size: 14px; font-weight: 500; color: var(--accent); }
 .stack-card p { margin: 0; font-size: 15px; color: var(--text-2); }
+.stack-card .tags { margin-top: 0; gap: 6px; }
+.stack-practices { margin: 24px 0 0; font-family: var(--mono); font-size: 14px; line-height: 1.8; color: var(--text-2); }
+.stack-practices .key { color: var(--muted); }
 .repo { display: flex; flex-direction: column; gap: 12px; padding: 24px; }
 .repo h3 { margin: 0; display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 17px; font-weight: 500; }
 .repo h3 svg { flex: none; color: var(--muted); }
@@ -195,17 +200,44 @@ p { margin: 0 0 12px; }
 .pubs-links a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); }
 .pubs-links a:hover { color: var(--accent-hover); }
 
-/* education + misc */
-.split { display: flex; flex-wrap: wrap; gap: 48px; }
-.split > :first-child { flex: 2 1 520px; min-width: 0; }
-.split > :last-child { flex: 1 1 300px; min-width: 0; }
-.edu { display: flex; flex-direction: column; gap: 24px; font-size: 15px; }
-.edu p { margin: 0; }
+/* education timeline */
+.edu-chart { --label: 380px; --span: 120; }
+.edu-axis, .edu-row { display: grid; grid-template-columns: var(--label) minmax(0, 1fr); column-gap: 32px; }
+.edu-ticks { display: grid; grid-template-columns: repeat(10, minmax(0, 1fr)); padding-bottom: 10px; border-bottom: 1px solid var(--border-strong); font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.edu-ticks span { padding-left: 6px; border-left: 1px solid var(--border-strong); line-height: 1; }
+.edu-rows { list-style: none; margin: 0; padding: 0; }
+.edu-row { align-items: center; padding: 20px 0; border-bottom: 1px solid var(--rule); }
+.edu-row:last-child { border-bottom: 0; }
+.edu-label { min-width: 0; font-size: 15px; }
+.edu-label p { margin: 0; }
 .edu-date { font-family: var(--mono); font-size: 13px; color: var(--muted); }
-.edu .edu-title { margin-top: 2px; font-weight: 600; }
-.edu-place { color: var(--muted); }
-.edu .edu-note { margin-top: 6px; font-size: 14px; color: var(--text-2); }
-.kv { padding: 24px; font-family: var(--mono); font-size: 14px; line-height: 2; color: var(--text-2); }
+.edu-row.is-degree .edu-date { color: var(--accent); }
+.edu-title { margin-top: 2px !important; font-weight: 600; line-height: 1.4; }
+.edu-place { color: var(--muted); font-size: 14px; }
+.edu-note { margin-top: 6px !important; font-size: 13px; color: var(--text-2); }
+.edu-track {
+  position: relative; height: 100%; min-height: 28px;
+  background-image: linear-gradient(to right, var(--rule) 1px, transparent 1px);
+  background-size: 10% 100%;
+}
+.edu-bar {
+  position: absolute; top: 50%; height: 14px; margin-top: -7px; border-radius: 7px;
+  left: calc(var(--s) * 100% / var(--span)); width: calc(var(--d) * 100% / var(--span));
+  background: #4B5A6B;
+}
+.edu-bar.is-school { background: var(--number); opacity: .75; }
+.edu-bar.is-degree { background: var(--accent); box-shadow: 0 0 0 4px rgba(94, 234, 212, .12), 0 0 24px rgba(94, 234, 212, .25); }
+
+@media (max-width: 760px) {
+  .edu-axis, .edu-row { grid-template-columns: minmax(0, 1fr); }
+  .edu-axis-spacer { display: none; }
+  .edu-row { row-gap: 12px; }
+  .edu-track { min-height: 20px; }
+  .edu-ticks { font-size: 11px; }
+  .edu-ticks span:nth-child(even) { color: transparent; }
+}
+
+.kv { max-width: 640px; padding: 24px; font-family: var(--mono); font-size: 14px; line-height: 2; color: var(--text-2); }
 .kv .key { color: var(--muted); }
 
 /* footer */
