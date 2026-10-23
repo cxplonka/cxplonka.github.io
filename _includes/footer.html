@@ -1,6 +1,14 @@
-    <footer class="footer">
-        <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+<footer id="contact" class="site-footer">
+  <div class="container">
+    <p class="prompt">$ echo $CONTACT</p>
+    <a class="footer-mail" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <div class="footer-bottom">
+      <span>© {{ site.time | date: '%Y' }} {{ site.name | downcase }}</span>
+      <nav aria-label="Profiles">
+        <a href="https://github.com/{{ site.github }}">github</a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin }}">linkedin</a>
+        <a href="https://www.researchgate.net/profile/{{ site.researchgate }}">researchgate</a>
+      </nav>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,187 @@
+# Publications, newest first.
+# type: journal | conference | software    selected: true -> shown above "show all"
+# Sources: own list + https://igmas.git-pages.gfz-potsdam.de/igmas-pages/publication/
+
+- year: 2025
+  type: conference
+  selected: true
+  authors: H.-J. Götze, D. Anikiev, C. Plonka, S. Schmidt, M. Scheck-Wenderoth
+  title: "Advancements in 3D Potential Field Modeling: Enhancing Lithospheric Insights with IGMAS+"
+  venue: EGU General Assembly 2025
+  doi: 10.5194/egusphere-egu25-3292
+
+- year: 2024
+  type: conference
+  authors: D. Anikiev, M. Cacace, U. b. Waheed, K. Ayranci, C. Plonka
+  title: Enhancing geoscience research software utilization with Large Language Models
+  venue: AGU Annual Meeting 2024
+
+- year: 2024
+  type: conference
+  authors: D. Anikiev, H.-J. Götze, C. Plonka, S. Schmidt
+  title: Subsurface space warping driven by gravity data
+  venue: Alpine-Carpathian Gravimetry Workshop
+
+- year: 2024
+  type: conference
+  authors: H.-J. Götze, R. Strehlau, A. Dannowski, S. Schmidt, C. Plonka, M. Scheck-Wenderoth, D. Anikiev
+  title: 'Do gravity data justify a rifted "Liguro-Provençal Basin"? A few thoughts on gravity data analysis'
+  venue: Alpine-Carpathian Gravimetry Workshop
+
+- year: 2023
+  type: journal
+  selected: true
+  authors: M. R. Alvers, H.-J. Götze, D. Anikiev, C. Plonka
+  title: Inversion of potential fields by interactive optimization of 3D subsurface models using a spring-based space warping and evolution strategy
+  venue: Geophysics
+  doi: 10.1190/geo2022-0222.1
+
+- year: 2023
+  type: software
+  selected: true
+  authors: D. Anikiev, H.-J. Götze, C. Plonka, M. Scheck-Wenderoth, S. Schmidt
+  title: "IGMAS+: Interactive Gravity and Magnetic Application System"
+  venue: GFZ Data Services
+  doi: 10.5880/GFZ.4.5.IGMAS
+
+- year: 2023
+  type: software
+  authors: D. Anikiev, H.-J. Götze, C. Plonka, M. Scheck-Wenderoth, S. Schmidt
+  title: "IGMAS+: Interactive Gravity and Magnetic Application System (Version 1.4)"
+  venue: GFZ Data Services
+  doi: 10.5880/GFZ.4.5.IGMAS.V.1.4
+
+- year: 2023
+  type: conference
+  authors: D. Anikiev, H.-J. Götze, C. Plonka, S. Schmidt, J. Bott, M. Scheck-Wenderoth
+  title: Interactive optimisation of 3-D subsurface models using potential fields
+  venue: EGU General Assembly 2023
+  doi: 10.5194/egusphere-egu23-1860
+
+- year: 2023
+  type: conference
+  authors: H.-J. Götze, D. Anikiev, S. Schmidt, C. Plonka, M. Scheck-Wenderoth, J. Bott
+  title: Is forward modeling still up to date? Reflections on the 40 years of modeling gravity and magnetic fields
+  venue: 28th IUGG General Assembly
+  doi: 10.57757/IUGG23-0291
+
+- year: 2022
+  type: conference
+  authors: D. Anikiev, H.-J. Götze, J. Bott, C. Meeßen, C. Plonka, S. Schmidt, M. Scheck-Wenderoth
+  title: "IGMAS+: a success story of a 3-D potential field modelling software"
+  venue: EGU General Assembly 2022
+  doi: 10.5194/egusphere-egu22-9388
+
+- year: 2021
+  type: conference
+  authors: D. Anikiev, H.-J. Götze, J. Bott, À. Gómez-García, M. L. Gomez Dacal, C. Meeßen, C. Spooner, C. Rodriguez Piceda, C. Plonka, S. Schmidt, M. Scheck-Wenderoth
+  title: Interdisciplinary data-constrained 3-D potential field modelling with IGMAS+
+  venue: EGU General Assembly 2021
+  doi: 10.5194/egusphere-egu21-2964
+
+- year: 2021
+  type: conference
+  authors: H.-J. Götze, J. Bott, M. L. Gomez Dacal, A. M. Gomez Garcia, C. Rodriguez Piceda, C. Meeßen, C. Plonka, C. Spooner, M. Scheck-Wenderoth, S. Schmidt, D. Anikiev
+  title: Interdisciplinary 3D potential field modelling of complex lithospheric structures by IGMAS+
+  venue: FID GEO
+  doi: 10.23689/FIDGEO-3938
+
+- year: 2020
+  type: software
+  authors: D. Anikiev, H.-J. Götze, C. Meeßen, C. Plonka, M. Scheck-Wenderoth, S. Schmidt
+  title: "IGMAS+: Interactive Gravity and Magnetic Application System (Version 1.3)"
+  venue: GFZ Data Services
+  doi: 10.5880/GFZ.4.5.IGMAS.V.1.3
+
+- year: 2020
+  type: conference
+  authors: S. Schmidt, D. Anikiev, H.-J. Götze, À. Gómez-García, M. L. Gomez Dacal, C. Meeßen, C. Plonka, C. Rodriguez Piceda, C. Spooner, M. Scheck-Wenderoth
+  title: IGMAS+ – a tool for interdisciplinary 3D potential field modelling of complex geological structures
+  venue: EGU General Assembly 2020
+  doi: 10.5194/egusphere-egu2020-8383
+
+- year: 2016
+  type: conference
+  authors: P. Menzel, M. R. Alvers, L. Barrio-Alvers, H.-J. Götze, S. Schmidt, C. Plonka
+  title: Die Anwendung von Level-of-Detail und Mesh-Simplification Strategien zur Vereinfachung komplexer Untergrundmodelle
+  venue: 76. Jahrestagung der Deutschen Geophysikalischen Gesellschaft (DGG), Münster
+
+- year: 2015
+  type: journal
+  selected: true
+  authors: M. R. Alvers, L. Barrio-Alvers, C. Bodor, H.-J. Götze, B. Lahmeyer, C. Plonka, S. Schmidt
+  title: Quo vadis inversion?
+  venue: First Break
+  details: 33(4), 65–74
+  doi: 10.3997/1365-2397.33.4.79746
+
+- year: 2015
+  type: conference
+  authors: M. R. Alvers, H.-J. Götze, S. Schmidt, L. Barrio-Alvers, C. Plonka, C. Bodor, B. Lahmeyer
+  title: Practical Aspects of 3D Interactive Potential Field Modelling and Inversion
+  venue: 77th EAGE Conference and Exhibition 2015
+  doi: 10.3997/2214-4609.201412988
+
+- year: 2015
+  type: conference
+  authors: H.-J. Götze, M. R. Alvers, L. Barrio-Alvers, B. Lahmeyer, C. Plonka, S. Schmidt
+  title: Advanced interactive 3D potential field modelling
+  venue: 17th Annual Conference of the International Association for Mathematical Geosciences (IAMG)
+
+- year: 2014
+  type: conference
+  authors: M. R. Alvers, B. Lahmeyer, C. Plonka, E. Stangeland Karlsen
+  title: New Insights from Interactive Gravity Inversion of Complex Salt Structures – The 3D SEAM Model
+  venue: 76th EAGE Conference and Exhibition 2014, Amsterdam
+  doi: 10.3997/2214-4609.20141553
+
+- year: 2014
+  type: journal
+  selected: true
+  authors: M. R. Alvers, H.-J. Götze, L. Barrio-Alvers, S. Schmidt, B. Lahmeyer, C. Plonka
+  title: A novel warped-space concept for interactive 3D-geometry-inversion to improve seismic imaging
+  venue: First Break
+  details: 32(4), 61–67
+  doi: 10.3997/1365-2397.32.4.74375
+
+- year: 2013
+  type: conference
+  authors: M. R. Alvers, H.-J. Götze, B. Lahmeyer, C. Plonka, S. Schmidt
+  title: Advances in 3D Potential Field Modeling
+  venue: 75th EAGE Conference and Exhibition incorporating SPE EUROPEC 2013
+  doi: 10.3997/2214-4609.20130125
+
+- year: 2013
+  type: conference
+  authors: M. R. Alvers, C. Plonka, S. Schmidt, L. Barrio-Alvers
+  title: Semi-Automated Geometry Optimization of Voxelized Triangle Models by means of Covariance-Matrix-Adoption Evolution-Strategies and User Interaction
+  venue: 73. Jahrestagung der Deutschen Geophysikalischen Gesellschaft (DGG)
+  url: https://dgg-online.de/WordPress_01/wp-content/uploads/2016/04/DGG-2013-komprimiert.pdf
+
+- year: 2011
+  type: journal
+  selected: true
+  authors: S. Schmidt, C. Plonka, H.-J. Götze, B. Lahmeyer
+  title: Hybrid modelling of gravity, gravity gradients and magnetic fields
+  venue: Geophysical Prospecting
+  details: 59(6), 1046–1051
+  doi: 10.1111/j.1365-2478.2011.00999.x
+
+- year: 2010
+  type: conference
+  authors: B. Lahmeyer, H.-J. Götze, S. Schmidt, M. R. Alvers, C. Plonka, C. Fichler
+  title: Interactive 3D gravity modelling in IGMAS+ and the integration in the depth imaging workflow
+  venue: 72nd EAGE Conference and Exhibition incorporating SPE EUROPEC 2010, Barcelona
+  doi: 10.3997/2214-4609.201400750
+
+- year: 2010
+  type: conference
+  authors: H.-J. Götze, S. Schmidt, C. Fichler, C. Plonka
+  title: IGMAS+ – a new 3D Gravity, FTG and Magnetic Modeling Software
+  venue: EGU General Assembly 2010
+
+- year: 2008
+  type: conference
+  authors: H.-J. Götze, S. Schmidt, C. Fichler, C. Plonka
+  title: A new 3D Gravity, FTG and Magnetic Modelling Software – IGMAS+
+  venue: 33rd International Geological Congress (IGC), Oslo

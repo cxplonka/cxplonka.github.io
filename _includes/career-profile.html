@@ -1,13 +1,30 @@
-<section class="section summary-section">
-    <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
-    <div class="summary">
-        <p>An accomplished Software Architect specializing in Object-Oriented Design and Analysis with extensive experience 
-            in full life cycle of the software design process including requirements definition, prototyping, proof of concept, 
-            design, interface implementation, testing and maintenance. Determined, passionate, hard working individual with 
-            unyielding self motivation. 12+ years of industrial Java programming experience in developing an leading-edge software 
-            for gravity/magnetic modelling of subsurface models and enterprise software for the rail cargo logistics sector. He 
-			contributed to over 10 scientific publications and also gained passion for Enterprise Application Development, 
-			APM (application performance monitoring), EIP (enterprise integration patterns), numerical simulations, high-performance 
-			computing, document-retrieval-Systems and real-time graphics rendering.
-    </div><!--//summary-->
-</section><!--//section-->
+{% assign years = site.time | date: '%Y' | minus: 2006 %}
+{% assign papers = site.data.publications | where_exp: "p", "p.type != 'software'" %}
+<section id="top" class="hero">
+  <div class="hero-main">
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ site.pic }}" alt="Portrait of {{ site.name }}" width="72" height="72">
+    <p class="prompt"><span class="accent">~/{{ site.github }}</span> $ whoami</p>
+    <h1 class="hero-name">{{ site.name }}</h1>
+    <p class="hero-role">&gt; {{ site.tagline | downcase | escape }}<span class="cursor" aria-hidden="true"></span></p>
+    <p class="hero-summary">Software architect specialising in object-oriented design and the full software lifecycle, from requirements and prototyping to implementation, testing and maintenance. {{ years }} years of industrial Java: interactive gravity and magnetic modelling software (IGMAS+) and enterprise platforms for rail cargo logistics.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:{{ site.email }}">contact()</a>
+      <a class="btn" href="https://github.com/{{ site.github }}">github ↗</a>
+      <a class="btn" href="https://www.linkedin.com/in/{{ site.linkedin }}">linkedin ↗</a>
+    </div>
+  </div>
+  <div class="card code-card">
+    <div class="code-card-bar" aria-hidden="true"><i></i><i></i><i></i><span>profile.json</span></div>
+    <div class="code">
+      <div>{</div>
+      <div class="in"><span class="k">"location"</span>: <span class="s">"Lauchhammer, DE"</span>,</div>
+      <div class="in"><span class="k">"role"</span>: <span class="s">"Software Architect @ ZEDAS"</span>,</div>
+      <div class="in"><span class="k">"experience"</span>: <span class="s">"{{ years }} years"</span>,</div>
+      <div class="in"><span class="k">"domains"</span>: [<span class="s">"rail cargo"</span>, <span class="s">"geophysics"</span>],</div>
+      <div class="in"><span class="k">"focus"</span>: [<span class="s">"APM"</span>, <span class="s">"EIP"</span>, <span class="s">"HPC"</span>, <span class="s">"3D"</span>],</div>
+      <div class="in"><span class="k">"publications"</span>: <span class="n">{{ papers.size }}</span>,</div>
+      <div class="in"><span class="k">"languages"</span>: [<span class="s">"de"</span>, <span class="s">"en"</span>]</div>
+      <div>}</div>
+    </div>
+  </div>
+</section>
